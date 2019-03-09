@@ -1,0 +1,67 @@
+﻿
+@model ReadImageAndPDF.ViewModel.InformationViewModel
+
+@using ReadImageAndPDF.ViewModel
+
+
+@{
+	ViewBag.Title = "CodeQr";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>CodeQr</h2>
+
+
+@using (Html.BeginForm(controllerName: "Home", actionName: "CodeQr", method: FormMethod.Post))
+{
+<div class="container">
+	<h2>How to Generate QR Code in ASP.NET MVC</h2>
+	<div class="row">
+		<div class="col-md-9">
+			<div class="form-group">
+				<label>Enter Something</label>
+				<div class="input-group">
+					@Html.TextBox("txtQRCode", null, new { @class = "form-control", value = ViewBag.txtQRCode })
+					<div class="input-group-prepend">
+						<button type="submit">Generte QR</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	@if (ViewBag.imageBytes != null)
+	{
+		<img style="max-width: 100%; height:250px !important;" src="@String.Format("data:image/png;base64,{0}", Convert.ToBase64String(ViewBag.imageBytes))" />
+	}
+
+	@if (Model.Name != null)
+	{
+		<div class="row">
+			<div class="col-md-12">
+				@Html.ActionLink( linkText: "Gener le pdf", actionName: "PrintDoc",controllerName: "Home", routeValues:Model,
+					  htmlAttributes: null
+				   )
+			</div>
+		</div>
+	}
+
+	@*: new InformationViewModel
+	{
+	CodeQr = Model.CodeQr,
+	CodeQrPath = Model.CodeQrPath,
+	Description = Model.Description,
+	Name = Model.Name,
+	Title = Model.Title
+	},*@
+
+
+
+	<div class="row">
+		<div class="col-md-12">
+			<div class="alert alert-danger">
+				@ViewBag.qrcode;
+			</div>
+		</div>
+	</div>
+</div>
+}

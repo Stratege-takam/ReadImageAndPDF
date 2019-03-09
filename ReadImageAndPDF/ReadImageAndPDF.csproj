@@ -45,10 +45,70 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="ChineseTraditional, Version=4.0.0.20746, Culture=neutral, PublicKeyToken=5f366048dc436899, processorArchitecture=MSIL">
+      <HintPath>..\packages\IronOcr.Languages.ChineseTraditional.4.4.4.1\lib\net40\ChineseTraditional.dll</HintPath>
+    </Reference>
+    <Reference Include="IronOcr, Version=4.4.0.21181, Culture=neutral, PublicKeyToken=5f366048dc436899, processorArchitecture=MSIL">
+      <HintPath>..\packages\IronOcr.4.4.0\lib\net40\IronOcr.dll</HintPath>
+    </Reference>
+    <Reference Include="IronOcr.Arabic, Version=4.4.4.18393, Culture=neutral, PublicKeyToken=5f366048dc436899, processorArchitecture=MSIL">
+      <HintPath>..\packages\IronOcr.Languages.Arabic.4.4.4.11\lib\net40\IronOcr.Arabic.dll</HintPath>
+    </Reference>
+    <Reference Include="IronOcr.ChineseSimplified, Version=4.0.0.20746, Culture=neutral, PublicKeyToken=5f366048dc436899, processorArchitecture=MSIL">
+      <HintPath>..\packages\IronOcr.Languages.ChineseSimplified.4.4.4.1\lib\net40\IronOcr.ChineseSimplified.dll</HintPath>
+    </Reference>
+    <Reference Include="IronOcr.Danish, Version=4.0.0.20749, Culture=neutral, PublicKeyToken=5f366048dc436899, processorArchitecture=MSIL">
+      <HintPath>..\packages\IronOcr.Languages.Danish.4.4.4.1\lib\net40\IronOcr.Danish.dll</HintPath>
+    </Reference>
+    <Reference Include="IronOcr.Finnish, Version=4.0.0.20748, Culture=neutral, PublicKeyToken=5f366048dc436899, processorArchitecture=MSIL">
+      <HintPath>..\packages\IronOcr.Languages.Finnish.4.4.4.1\lib\net40\IronOcr.Finnish.dll</HintPath>
+    </Reference>
+    <Reference Include="IronOcr.French, Version=4.0.0.20747, Culture=neutral, PublicKeyToken=5f366048dc436899, processorArchitecture=MSIL">
+      <HintPath>..\packages\IronOcr.Languages.French.4.4.4.1\lib\net40\IronOcr.French.dll</HintPath>
+    </Reference>
+    <Reference Include="IronOcr.German, Version=4.0.0.20745, Culture=neutral, PublicKeyToken=5f366048dc436899, processorArchitecture=MSIL">
+      <HintPath>..\packages\IronOcr.Languages.German.4.4.4.1\lib\net40\IronOcr.German.dll</HintPath>
+    </Reference>
+    <Reference Include="IronOcr.Hebrew, Version=4.0.0.20748, Culture=neutral, PublicKeyToken=5f366048dc436899, processorArchitecture=MSIL">
+      <HintPath>..\packages\IronOcr.Languages.Hebrew.4.4.4.1\lib\net40\IronOcr.Hebrew.dll</HintPath>
+    </Reference>
+    <Reference Include="IronOcr.International, Version=4.4.4.22148, Culture=neutral, PublicKeyToken=5f366048dc436899, processorArchitecture=MSIL">
+      <HintPath>..\packages\Ocr.4.4.4.11\lib\net40\IronOcr.International.dll</HintPath>
+    </Reference>
+    <Reference Include="IronOcr.Italian, Version=4.0.0.20748, Culture=neutral, PublicKeyToken=5f366048dc436899, processorArchitecture=MSIL">
+      <HintPath>..\packages\IronOcr.Languages.Italian.4.4.4.1\lib\net40\IronOcr.Italian.dll</HintPath>
+    </Reference>
+    <Reference Include="IronOcr.Japanese, Version=4.0.0.20747, Culture=neutral, PublicKeyToken=5f366048dc436899, processorArchitecture=MSIL">
+      <HintPath>..\packages\IronOcr.Languages.Japanese.4.4.4.1\lib\net40\IronOcr.Japanese.dll</HintPath>
+    </Reference>
+    <Reference Include="IronOcr.Korean, Version=4.0.0.20746, Culture=neutral, PublicKeyToken=5f366048dc436899, processorArchitecture=MSIL">
+      <HintPath>..\packages\IronOcr.Languages.Korean.4.4.4.1\lib\net40\IronOcr.Korean.dll</HintPath>
+    </Reference>
+    <Reference Include="IronOcr.Norwegian, Version=4.0.0.20748, Culture=neutral, PublicKeyToken=5f366048dc436899, processorArchitecture=MSIL">
+      <HintPath>..\packages\IronOcr.Languages.Norwegian.4.4.4.1\lib\net40\IronOcr.Norwegian.dll</HintPath>
+    </Reference>
+    <Reference Include="IronOcr.Portuguese, Version=4.0.0.15217, Culture=neutral, PublicKeyToken=5f366048dc436899, processorArchitecture=MSIL">
+      <HintPath>..\packages\IronOcr.Languages.Portuguese.4.4.4.1\lib\net40\IronOcr.Portuguese.dll</HintPath>
+    </Reference>
+    <Reference Include="IronOcr.Russian, Version=4.0.0.20748, Culture=neutral, PublicKeyToken=5f366048dc436899, processorArchitecture=MSIL">
+      <HintPath>..\packages\IronOcr.Languages.Russian.4.4.4.1\lib\net40\IronOcr.Russian.dll</HintPath>
+    </Reference>
+    <Reference Include="IronOcr.Spanish, Version=4.0.0.20747, Culture=neutral, PublicKeyToken=5f366048dc436899, processorArchitecture=MSIL">
+      <HintPath>..\packages\IronOcr.Languages.Spanish.4.4.4.1\lib\net40\IronOcr.Spanish.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="QRCoder, Version=1.3.5.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\QRCoder.1.3.5\lib\net40\QRCoder.dll</HintPath>
+    </Reference>
+    <Reference Include="Select.HtmlToPdf, Version=18.4.0.0, Culture=neutral, PublicKeyToken=e0ae9f6e27a97018, processorArchitecture=MSIL">
+      <HintPath>..\packages\Select.HtmlToPdf.18.4.0\lib\net40\Select.HtmlToPdf.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Common, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Drawing.Common.4.5.0\lib\net461\System.Drawing.Common.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -152,12 +212,14 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModel\InformationViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="doc\code c.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -167,6 +229,10 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="doc\carte-danick_takam.pdf" />
+    <Content Include="doc\carte_n-danick_takam.pdf" />
+    <Content Include="doc\Diplome d%27etude collegiale niveau BAC +2 %28CCNB-CANADA%29.pdf" />
+    <Content Include="doc\permis-danick_takam.pdf" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
@@ -192,6 +258,8 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\RenderPdf.cshtml" />
+    <Content Include="Views\Home\CodeQr.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
